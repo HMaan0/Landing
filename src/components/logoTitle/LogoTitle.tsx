@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Logo from "../logo/Logo";
+import Logo from "./logo/Logo";
 
 const LogoTitle = () => {
   return (
@@ -8,7 +8,7 @@ const LogoTitle = () => {
       className="cursor-pointer flex justify-center items-center"
     >
       <div className="flex gap-4 justify-center items-center">
-        <Logo width={30} height={30} />
+        <Logo width={40} height={40} />
         <p className="font-bold xl:text-4xl text-2xl">Preswald</p>
       </div>
     </Link>

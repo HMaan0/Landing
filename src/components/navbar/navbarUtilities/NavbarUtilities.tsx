@@ -12,7 +12,7 @@ const NavbarUtilities = () => {
         className="lg:w-fit w-full"
       >
         <Button className="bg-black text-white hover:bg-black/85">
-          Get started
+          SignUp
         </Button>
       </Link>
       <Link
@@ -20,7 +20,7 @@ const NavbarUtilities = () => {
         target="_blank"
         className="lg:w-fit w-full"
       >
-        <Button className="hover:bg-black/10 bg-white">Book a demo</Button>
+        <Button className="hover:bg-black/10 bg-white">Login</Button>
       </Link>
     </div>
   );

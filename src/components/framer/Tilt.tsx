@@ -2,11 +2,7 @@
 import React, { useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 
-export const ScrollAnimation = ({
-  children,
-}: {
-  children: React.ReactNode;
-}) => {
+export const TiltAnimation = ({ children }: { children: React.ReactNode }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: containerRef,

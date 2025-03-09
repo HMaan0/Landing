@@ -1,4 +1,4 @@
-import { ScrollAnimation } from "../scrollAnimation/ScrollAnimation";
+import { TiltAnimation } from "./Tilt";
 import Image from "next/image";
 import { Highlight } from "../ui/Dotted";
 const ImageAnimation = () => {
@@ -17,7 +17,7 @@ const ImageAnimation = () => {
         </div>
       </div>
       <div className="w-1/2 absolute right-0 hidden lg:block">
-        <ScrollAnimation>
+        <TiltAnimation>
           <Image
             src={"/demo.gif"}
             width={800}
@@ -26,7 +26,7 @@ const ImageAnimation = () => {
             priority={true}
             className="rounded-2xl z-10 shadow-xl hover:shadow-2xl border border-border-theme "
           />
-        </ScrollAnimation>
+        </TiltAnimation>
       </div>
       <div className="w-full flex justify-center items-center lg:hidden">
         <Image

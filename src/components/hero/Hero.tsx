@@ -11,12 +11,12 @@ const Hero = () => {
           className="cursor-pointer"
         >
           <div>
-            <p className="font-light md:text-lg md:mx-15.5 mx-12">Backed by</p>
+            <p className="font-light text-sm md:mx-11.5 mx-9.5">Backed by</p>
             <div className="flex w-min justify-center items-center gap-3">
-              <div className="flex items-center justify-center md:w-12 md:h-12 w-8 h-8 bg-[#fb651e] text-white font-medium md:text-3xl text-2xl text-center">
+              <div className="flex items-center justify-center md:w-8 md:h-8 w-6 h-6 bg-[#fb651e] text-white font-medium md:text-2xl text-xl text-center">
                 Y
               </div>
-              <p className="text-[#fb651e] md:text-4xl text-2xl ">Combinator</p>
+              <p className="text-[#fb651e] md:text-xl text-lg ">Combinator</p>
             </div>
           </div>
         </Link>

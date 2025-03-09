@@ -18,16 +18,6 @@ const Cards = () => {
             description="Python-built, auto-updating No third-party tools. Real-time metrics for executives, refreshed instantly."
           />
         </div>
-        <div className="gap-4 lg:gap-10 justify-center md:flex-row flex flex-col">
-          <Card
-            title="Instant Cloud Deployment"
-            description="1 command → Google Cloud Run Share dashboards securely. End outdated reports with team-wide access."
-          />
-          <Card
-            title="Error Free   Evaluation"
-            description="Auto-cleaned, 100% consistent Skip formatting fixes. Trust reliable data for strategic decisions."
-          />
-        </div>
       </div>
     </>
   );
